@@ -1,0 +1,66 @@
+ 
+   /* id to input*/
+ #myInput {                  
+    width: 180px;
+    padding: 10px;
+}
+ /*class*/ 
+.header{                      
+
+ 	margin: 20px 50px 20px 40px;
+ }
+#myUL{                      
+
+    margin: 20px 50px 20px 40px;
+ }
+ /* class to button*/
+.bt1{                           
+
+    background-color: #009aff;
+    padding: 11px;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+
+}
+
+/* nested tag*/
+ ul li{                           
+list-style-type: none;
+
+ }
+
+ .list li {
+    cursor: pointer;
+    padding: 10px;
+    margin-left: -30px;
+    border-bottom: 1px solid #eef;
+}
+
+.list li:hover {
+color:green;
+border-bottom:2px solid #6e6c6c;
+
+}
+
+
+a{
+	float: right;
+    display:none;
+
+}
+ .a1{
+    color:red;
+}
+.a2{
+    color:green;
+}
+
+
+.list li:hover a{
+    display: block;
+    text-decoration: none;
+}
+

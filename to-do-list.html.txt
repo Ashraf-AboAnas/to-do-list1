@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="MyStyle.css">
+<title>TO-do's-List</title>
+    </head>
+    <body>
+<div id="myDIV" class="header">
+      <h2>My TO-do's-List</h2>
+<form action="post" class="">
+
+  <input type="text" id="myInput" placeholder="New Taske...">
+  <button type="button" class="bt1">Add to List</button>
+
+</form>
+</div>
+
+<ul id="myUL" class="list">
+
+  <li>Learn Html
+     <a href="#" class="a1">|&nbsp&nbspDelete </a>                 
+     <a href="#" class="a2">Mark as Done &nbsp</a>
+     </li>
+
+  <li>Learn Css
+     <a href="#" class="a1">|&nbsp&nbspDelete </a>                 
+     <a href="#" class="a2">Mark as Done &nbsp</a>
+  </li>
+
+  <li>Learn Java Script
+     <a href="#" class="a1">|&nbsp&nbspDelete </a>                 
+     <a href="#" class="a2">Mark as Done &nbsp</a>
+  </li>
+
+  <li>Learn PHP
+     <a href="#" class="a1">|&nbsp&nbspDelete </a>                 
+     <a href="#" class="a2">Mark as Done &nbsp</a>
+
+  </li>  
+</ul>
+
+    </body>
+</html>
